@@ -143,7 +143,9 @@ class ViewController: UIViewController {
                // Replay Function
                self.score = 0
                self.scoreLabel.text = "Score: \(self.score)"
-               self.counter = 10
+               self.counter = 30
+               
+               
                self.timeLabel.text = String(self.counter)
                
                
